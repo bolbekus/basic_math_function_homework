@@ -1,5 +1,5 @@
 def main(a, b):
-    '''find the absolute value of the difference between a and b. Return it.
+    '''find the abs value of the difference between a and b. Return it.
     
     Args:
         a (int): a number
@@ -8,4 +8,9 @@ def main(a, b):
     Returns:
         int: the result.
     '''
-    return
+    x = a - b
+    
+    return abs(x )
+
+
+print(main(4, 11))
